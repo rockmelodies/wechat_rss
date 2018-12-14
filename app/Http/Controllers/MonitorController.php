@@ -14,7 +14,7 @@ class MonitorController extends Controller
     public function index(Request $request)
     {
         //获取我订阅的关键词
-        $myRss = WechatUser::user()->myRss()->orderByDesc('pub_dates')
+        $myRss = WechatUser::user()->myRss()->orderByDesc('pub_date')
                     ->paginate(10);
 
         return view('user.index',array_merge([
