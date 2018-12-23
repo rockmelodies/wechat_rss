@@ -29,7 +29,7 @@ class RssListSeeder extends Seeder
         'http://www.freebuf.com/feed',
         'https://forum.eviloctal.com/rss.php?auth=0',
         'https://api.anquanke.com/data/v1/rss',
-        'http://xlab.tencent.com/cn/secnews/atom.xml',
+        'https://xlab.tencent.com/cn/feed/',
         'https://www.zdnet.com/topic/security/rss.xml',
         'http://feeds.feedburner.com/TheHackersNews?format=xml',
         'https://www.pentestpartners.com/feed/',
